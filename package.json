@@ -1,0 +1,9 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "All my resume projects",
+  "main": "index.js",
+  "author": "Shidil Eringa <shidil@live.com>",
+  "license": "UNLICENSED",
+  "private": true
+}
