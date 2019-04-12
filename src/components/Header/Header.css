@@ -1,0 +1,57 @@
+.header-container {
+  text-align: center;
+}
+
+.header-container > * {
+  margin: 0;
+}
+
+.header-container > *:not(:first-child) {
+  margin-top: 10px;
+}
+
+.header-container .title {
+  font-size: 360%;
+}
+
+.header-container .title .first-name {
+  color: #666666;
+  font-weight: 300;
+}
+
+.header-container .title .last-name {
+  color: #333333;
+  font-weight: 700;
+}
+
+.header-container .subtitle {
+  font-size: 80%;
+  color: #d44a13;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.header-container .address {
+  font-size: 100%;
+  color: #999999;
+  font-style: italic;
+}
+
+.header-container .links {
+  list-style: none;
+}
+
+.header-container .links li {
+  padding: 0 10px;
+  font-size: 0.9rem;
+  display: inline-block;
+}
+
+.header-container .links li svg {
+  color: #555555;
+  margin-right: 5px;
+}
+
+.header-container .links li:not(:last-child) {
+  border-right: 1px solid black;
+}
