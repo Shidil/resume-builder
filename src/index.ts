@@ -1,6 +1,6 @@
 import http from 'http';
 
-let app = require('./server').default;
+let app = require('./server').default; // tslint:disable-line
 
 const server = http.createServer(app);
 

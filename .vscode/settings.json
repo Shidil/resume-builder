@@ -8,5 +8,12 @@
     "**/node_modules": true
   },
   "flow.enabled": true,
-  "flow.useNPMPackagedFlow": true
+  "flow.useNPMPackagedFlow": true,
+  "cSpell.words": [
+    "Linkedin",
+    "RAZZLE",
+    "crossorigin",
+    "fontawesome",
+    "fortawesome"
+  ]
 }

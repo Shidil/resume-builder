@@ -1,6 +1,6 @@
-import './App.css';
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
+import './App.css';
 import Resume from './pages/Resume/Resume';
 
 const App = () => (

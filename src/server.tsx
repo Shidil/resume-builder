@@ -1,10 +1,10 @@
-import App from './App';
-import React from 'react';
 import express from 'express';
-import { StaticRouter } from 'react-router-dom';
+import React from 'react';
 import { renderToString } from 'react-dom/server';
+import { StaticRouter } from 'react-router-dom';
+import App from './App';
 
-const assets = require(process.env.RAZZLE_ASSETS_MANIFEST || '');
+const assets = require(process.env.RAZZLE_ASSETS_MANIFEST || ''); // tslint:disable-line
 
 const server = express();
 server

@@ -1,19 +1,27 @@
 import React from 'react';
+import { Resume } from '../../../typings/Resume';
 import Header from '../../components/Header/Header';
 
-class Resume extends React.Component {
-  render() {
+export interface ResumePageProps {
+  data: Resume;
+}
+
+class ResumePage extends React.Component<ResumePageProps> {
+  public render() {
+    const { data } = this.props;
+
     return (
       <React.Fragment>
         <Header
-          firstName="Thusdfdf"
-          lastName="sdsd"
-          subtitle="sdsd"
-          address="asdsd"
+          firstName={data.info.firstName}
+          lastName={data.info.lastName}
+          subtitle={data.title}
+          address=""
         />
+        
       </React.Fragment>
     );
   }
 }
 
-export default Resume;
+export default ResumePage;

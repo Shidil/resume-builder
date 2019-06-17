@@ -1,20 +1,20 @@
-import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React from 'react';
 
 import './Header.css';
 
 export interface HeaderProps {
-  firstName: string,
-  lastName: string,
-  subtitle: string,
-  address: string,
-  phone?: string,
-  email?: string,
-  linkedIn?: string,
-  github?: string
-};
+  firstName: string;
+  lastName: string;
+  subtitle: string;
+  address: string;
+  phone?: string;
+  email?: string;
+  linkedIn?: string;
+  github?: string;
+}
 
 const Header: React.FC<HeaderProps> = ({
   firstName,
