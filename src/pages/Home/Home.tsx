@@ -1,5 +1,5 @@
-import React from 'react';
-import './Home.css';
+import React from "react";
+import "./Home.css";
 
 class Home extends React.Component {
   public render() {
@@ -9,7 +9,7 @@ class Home extends React.Component {
           <h2>Welcome to Razzle</h2>
         </div>
         <p className="Home-intro">
-          To get started, edit <code>src/App.js</code> or{' '}
+          To get started, edit <code>src/App.js</code> or{" "}
           <code>src/Home.js</code> and save to reload.
         </p>
         <ul className="Home-resources">

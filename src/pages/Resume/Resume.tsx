@@ -1,8 +1,10 @@
-import React from 'react';
-import Helmet from 'react-helmet';
-import { ExperienceInfo, Resume } from '../../../typings/Resume';
-import Header from '../../components/Header/Header';
-import sampleResume from '../../data/sample.json';
+import React from "react";
+import Helmet from "react-helmet";
+import Header from "../../components/Header/Header";
+import sampleResume from "../../data/sample.json";
+import { ExperienceInfo } from "../../models/ExperienceInfo";
+import { Resume } from "../../models/Resume";
+import { addressToString } from "../../utils/addressUtils";
 
 export interface ResumePageProps {
   data: Resume;
@@ -33,19 +35,20 @@ class ResumePage extends React.Component<ResumePageProps> {
 
   public render() {
     const { data, data: { info: person } } = this.props;
-    const fullName = `${person.firstName} ${person.middleName ? person.middleName + ' ' : ''}${person.lastName}`;
+    const fullName = `${person.firstName} ${person.middleName ? person.middleName + " " : ""}${person.lastName}`;
+    const address = addressToString(person.address);
 
     return (
       <React.Fragment>
         <Helmet>
-          <title>Resume {fullName}</title>
+          <title>Resume | {fullName}</title>
           <meta name="description" content={`${data.title} Resume for ${fullName}}`} />
         </Helmet>
         <Header
+          address={address}
           firstName={person.firstName}
           lastName={person.lastName}
           subtitle={data.title}
-          address=""
           phone={person.phone}
           email={person.email}
           linkedIn={data.links.linkedIn}
