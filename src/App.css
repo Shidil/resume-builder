@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:700|Raleway:300,500|Roboto:400,500,700');
+
+html {
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
 .App {
   text-align: center;
   padding: 60px 20px;
