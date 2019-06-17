@@ -1,0 +1,148 @@
+{
+  "info": {
+    "firstName": "Thushar",
+    "middleName": "M",
+    "lastName": "Prakash",
+    "address": {
+      "city": "Hyderabad",
+      "state": "Telengana",
+      "country": "India",
+      "pin": "500046"
+    },
+    "phone": "+918089149455",
+    "email": "thushar.m.prakash@gmail.com"
+  },
+  "education": [
+    {
+      "course": "Master of Technology",
+      "courseAbbrevation": "M.Tech",
+      "university": "University of Hyderabad",
+      "grade": {
+        "type": "CGPA",
+        "value": "7.77"
+      },
+      "startDate": "2017-07-14",
+      "endDate": "2019-06-30"
+    }
+  ],
+  "experience": [
+    {
+      "designation": "System Administrator and Operations Engineer",
+      "company": "School of Computer Information Sciences, University of Hyderabad",
+      "fromDate": "2018-05-20",
+      "toDate": "2019-06-30",
+      "abbrevation": "UoH",
+      "rolesAndResponsibility": [
+        "Lead a team of System admistrators and trained the peers",
+        "Designed and Developed the networks, related services and security policies",
+        "Introduced OpenLDAP as the best practice for authentication and authorization for internal development tools",
+        "Successfully introduced Gitlab CE to dev workflow (CICD Pipelines, Source Codes, Pages)"
+      ]
+    },
+    {
+      "designation": "Software Engineer",
+      "company": "QBurst Technologies Pvt Ltd",
+      "fromDate": "2015-05-18",
+      "toDate": "2017-07-12",
+      "abbrevation": "QBurst",
+      "rolesAndResponsibility": [
+        "Designed and developed applications from scratch",
+        "Co-ordinated with teams across the globe",
+        "Estimated the development time of applications depending on technologies involved",
+        "Lead a team for module development"
+      ]
+    }
+  ],
+  "keyProjects": [
+    {
+      "projectName": "Fast Retailing Image Platform",
+      "companyCode": "QBurst",
+      "fromDate": "2015-05-18",
+      "toDate": "2017-07-12",
+      "description": "It is an all stop solution for automatically maintaining, manupulating and sending images for all the platfroms used by fastretailing, including subsidiaries like uniqlo",
+      "rolesAndResponsibilities": [
+        "Worked with multiple developers and decided on the stack and worked on the architecture",
+        "Co-ordinated with japanese teams responsible for other platform.",
+        "Conducted code review for peers and created test cases for automation testing"
+      ]
+    },
+    {
+      "projectName": "Fittribe",
+      "companyCode": "QBurst",
+      "fromDate": "2015-05-18",
+      "toDate": "2017-07-12",
+      "description": "It is an all stop solution for automatically maintaining, manupulating and sending images for all the platfroms used by fastretailing, including subsidiaries like uniqlo",
+      "rolesAndResponsibilities": [
+        "Worked with multiple developers and decided on the stack and worked on the architecture",
+        "Co-ordinated with japanese teams responsible for other platform.",
+        "Conducted code review for peers and created test cases for automation testing"
+      ]
+    },
+    {
+      "projectName": "Meisterdish Web App",
+      "companyCode": "QBurst",
+      "fromDate": "2015-05-18",
+      "toDate": "2017-07-12",
+      "description": "It is an all stop solution for automatically maintaining, manupulating and sending images for all the platfroms used by fastretailing, including subsidiaries like uniqlo",
+      "rolesAndResponsibilities": [
+        "Worked with multiple developers and decided on the stack and worked on the architecture",
+        "Co-ordinated with japanese teams responsible for other platform.",
+        "Conducted code review for peers and created test cases for automation testing"
+      ]
+    },
+    {
+      "projectName": "Wockhardt Blockchain platform",
+      "companyCode": "QBurst",
+      "fromDate": "2015-05-18",
+      "toDate": "2017-07-12",
+      "description": "It is an all stop solution for automatically maintaining, manupulating and sending images for all the platfroms used by fastretailing, including subsidiaries like uniqlo",
+      "rolesAndResponsibilities": [
+        "Worked with multiple developers and decided on the stack and worked on the architecture",
+        "Co-ordinated with japanese teams responsible for other platform.",
+        "Conducted code review for peers and created test cases for automation testing"
+      ]
+    }
+  ],
+  "achievements": [
+    "First place in Scale IT ​ competition for designing and creating the most scalable chat application conducted by QBurst Calicut"
+  ],
+  "publications": [
+    {
+      "title": "A book on Machine Learning",
+      "year": 2017,
+      "link": ""
+    }
+  ],
+  "references": [
+    {
+      "fullName": "",
+      "title": "A book on Machine Learning",
+      "company": "QBurst Technologies Pvt Ltd",
+      "contact": {
+        "phone": "+918089149455",
+        "email": "thushar.m.prakash@gmail.com"
+      }
+    }
+  ],
+  "interests": [
+    "",
+    ""
+  ],
+  "languages": [
+    "English",
+    "Hindi",
+    "Malayalam"
+  ],
+  "links": {
+    "facebook": "",
+    "linkedin": "",
+    "twitter": "",
+    "github": "",
+    "others": [
+      {
+        "name": "blog",
+        "url": ""
+      }
+    ]
+  }
+}
