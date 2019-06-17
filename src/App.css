@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  padding: 60px 0px;
+  padding: 60px 20px;
   max-width: 960px;
   margin: 0 auto;
 }
@@ -35,18 +35,61 @@
   }
 }
 
+h2, h3 {
+  font-family: 'Lato', sans-serif;
+}
+
 section {
   color: #666666;
   text-align: left;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 115%;
+}
+
+section p {
+  margin-top: 5px;
+  margin-bottom: 0px;
 }
 
 section h2 {
+  color: #333333;
+  font-size: 140%;
+  margin-bottom: 15px;
+}
+
+.highlight {
   color: #d44a13;
-  font-size: 150%;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .summary p {
-  font-size: 130%;
+  font-size: 115%;
+}
+
+.projects {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+section h3 {
+  color: #333333;
+  font-size: 105%;
+  margin-bottom: 15px;
+}
+
+section h4 {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.projects .epoch {
+  text-transform: capitalize;
+  font-size: 80%;
+  color: #999999;
+  font-weight: 400;
+  margin: 0;
+  padding-left: 5px;
+}
+
+.projects .project-highlights > li:not(:last-child) {
+  margin-bottom: 5px;
 }

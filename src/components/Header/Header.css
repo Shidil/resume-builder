@@ -1,5 +1,6 @@
 .header-container {
   text-align: center;
+  margin-bottom: 25px;
 }
 
 .header-container > * {
@@ -12,6 +13,7 @@
 
 .header-container .title {
   font-size: 360%;
+  font-family: 'Raleway', sans-serif;
 }
 
 .header-container .title .first-name {
@@ -21,7 +23,7 @@
 
 .header-container .title .last-name {
   color: #333333;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .header-container .subtitle {
