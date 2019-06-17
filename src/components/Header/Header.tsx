@@ -45,7 +45,7 @@ const Header: React.FC<HeaderProps> = ({
       </li>
       <li className="linkedIn" hidden={!linkedIn}>
         <FontAwesomeIcon icon={faLinkedin} />
-        www.linkedin.com/in/{linkedIn}
+        {linkedIn}
       </li>
     </ul>
   </header>
