@@ -2,6 +2,7 @@ import React from "react";
 import Helmet from "react-helmet";
 import Header from "../../components/Header/Header";
 import sampleResume from "../../data/sample.json";
+import { EducationInfo } from "../../models/EducationInfo";
 import { ExperienceInfo } from "../../models/ExperienceInfo";
 import { Resume } from "../../models/Resume";
 import { addressToString } from "../../utils/addressUtils";
@@ -24,6 +25,24 @@ const Experience: React.FC<ExperienceInfo> = ({
       <ul>
         {rolesAndResponsibility.map((x) => <li>{x}</li>)}
       </ul>
+    </p>
+  </article>
+);
+
+const Education: React.FC<EducationInfo> = ({
+  university,
+  course,
+  grade,
+  endDate,
+  startDate
+}) => (
+  <article>
+    <header>
+      <h3>{course}</h3>
+      <p>{university} <span className="duration">{startDate} - {endDate}</span></p>
+    </header>
+    <p>
+      {grade.type}: {grade.value}
     </p>
   </article>
 );
@@ -56,6 +75,10 @@ class ResumePage extends React.Component<ResumePageProps> {
         <section id="experiences">
           <h2>Experience</h2>
           {data.experience.map((x) => <Experience {...x} />)}
+        </section>
+        <section id="education">
+          <h2>Education</h2>
+          {data.education.map((x) => <Education {...x} />)}
         </section>
       </React.Fragment>
     );
