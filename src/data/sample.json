@@ -63,7 +63,7 @@
       "description": "It is an all stop solution for automatically maintaining, manupulating and sending images for all the platfroms used by fastretailing, including subsidiaries like uniqlo",
       "rolesAndResponsibilities": [
         "Worked with multiple developers and decided on the stack and worked on the architecture",
-        "Co-ordinated with japanese teams responsible for other platform.",
+        "Co-ordinated with japanese teams responsible for other platforms.",
         "Conducted code review for peers and created test cases for automation testing"
       ]
     },
@@ -72,11 +72,10 @@
       "companyCode": "QBurst",
       "fromDate": "2015-05-18",
       "toDate": "2017-07-12",
-      "description": "It is an all stop solution for automatically maintaining, manupulating and sending images for all the platfroms used by fastretailing, including subsidiaries like uniqlo",
+      "description": "It is an application to stream fitneess related videos from trainers to clients, with a subscription model.",
       "rolesAndResponsibilities": [
-        "Worked with multiple developers and decided on the stack and worked on the architecture",
-        "Co-ordinated with japanese teams responsible for other platform.",
-        "Conducted code review for peers and created test cases for automation testing"
+        "Interacted with clients and decided on the the backend and streaming engine",
+        "Developed backend for realtime chat server and streaming"
       ]
     },
     {
@@ -84,23 +83,24 @@
       "companyCode": "QBurst",
       "fromDate": "2015-05-18",
       "toDate": "2017-07-12",
-      "description": "It is an all stop solution for automatically maintaining, manupulating and sending images for all the platfroms used by fastretailing, including subsidiaries like uniqlo",
+      "description": "An E-comerce website for cooking enthusiasts. The users can order a dish and its ingridients as per recepie is shipped to them",
       "rolesAndResponsibilities": [
-        "Worked with multiple developers and decided on the stack and worked on the architecture",
-        "Co-ordinated with japanese teams responsible for other platform.",
+        "Developed backedn in python Django with CMS",
+        "Integrated CI/CD pipeline for the project",
+        "Integrated stripe payment system"
         "Conducted code review for peers and created test cases for automation testing"
       ]
     },
     {
       "projectName": "Wockhardt Blockchain platform",
-      "companyCode": "QBurst",
+      "companyCode": "Automaxis",
       "fromDate": "2015-05-18",
       "toDate": "2017-07-12",
-      "description": "It is an all stop solution for automatically maintaining, manupulating and sending images for all the platfroms used by fastretailing, including subsidiaries like uniqlo",
+      "description": "It is a blockchain solution to digitize the documents for supply chain ",
       "rolesAndResponsibilities": [
-        "Worked with multiple developers and decided on the stack and worked on the architecture",
-        "Co-ordinated with japanese teams responsible for other platform.",
-        "Conducted code review for peers and created test cases for automation testing"
+        "Archetected the blockchain solution using Hyperledger Composer",
+        "Co-ordinated with clients and created middlewares for each organizations",
+        "Managed the development process and managed migration between shippers."
       ]
     }
   ],
@@ -136,7 +136,7 @@
   ],
   "links": {
     "facebook": "",
-    "linkedIn": "linkedin.com/in/thushar-m-prakash-3234b670/",
+    "linkedIn": "linkedin.com/in/thushar-m-prakash/",
     "twitter": "",
     "github": "",
     "others": [
