@@ -87,7 +87,7 @@
       "rolesAndResponsibilities": [
         "Developed backedn in python Django with CMS",
         "Integrated CI/CD pipeline for the project",
-        "Integrated stripe payment system"
+        "Integrated stripe payment system", 
         "Conducted code review for peers and created test cases for automation testing"
       ]
     },
