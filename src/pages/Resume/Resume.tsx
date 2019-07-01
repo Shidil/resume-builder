@@ -6,6 +6,7 @@ import { EducationInfo } from "../../models/EducationInfo";
 import { ExperienceInfo } from "../../models/ExperienceInfo";
 import { Resume } from "../../models/Resume";
 import { addressToString } from "../../utils/addressUtils";
+import { ProjectInfo } from "../../models/ProjectInfo";
 
 export interface ResumePageProps {
   data: Resume;
@@ -47,6 +48,44 @@ const Education: React.FC<EducationInfo> = ({
   </article>
 );
 
+const Project: React.FC<ProjectInfo> = ({
+  projectName,
+  fromDate,
+  toDate,
+  companyCode,
+  description,
+  rolesAndResponsibilities
+
+}) => (
+  <article>
+    <header>
+      <h3>{projectName}</h3>
+      <p>{description}</p>
+      <p>from: {fromDate} to {toDate}</p>
+    </header>
+    <p>
+      <ul>
+        {rolesAndResponsibilities.map((x) => <li> {x} </li>)}
+      </ul>
+    </p>
+
+  </article>
+);
+
+const Publication: React.FC<Publication> = ({
+  title,
+  year,
+  link
+}) => (
+  <article>
+    <header>
+      <h3>{title}</h3>
+      <p> {year} </p>
+    </header>
+    <p><a href={link}>{link}</a></p>
+  </article>
+);
+
 class ResumePage extends React.Component<ResumePageProps> {
   public static defaultProps = {
     data: sampleResume
@@ -79,6 +118,14 @@ class ResumePage extends React.Component<ResumePageProps> {
         <section id="education">
           <h2>Education</h2>
           {data.education.map((x) => <Education {...x} />)}
+        </section>
+        <section id="projects">
+          <h2>Key Projects</h2>
+          {data.keyProjects.map((x) => <Project {...x} />)}
+        </section>
+        <section id="publications">
+          <h2>Publications</h2>
+          {data.publications.map((x) => <Publication {...x} />)}
         </section>
       </React.Fragment>
     );
